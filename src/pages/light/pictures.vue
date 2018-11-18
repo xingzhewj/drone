@@ -38,9 +38,9 @@ export default {
 
 <style lang="less" scoped>
 .light-picture-wrapper {
-    margin: 18px auto 0;
+    margin: 0 auto;
     width: 940px;
-    height: 470px;
+    height: 100%;
     opacity: .8;
     .light-picture-swiper {
         height: 100%;

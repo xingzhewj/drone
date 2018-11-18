@@ -55,8 +55,8 @@ export default {
     width: 100%;
     height: 100%;
     .video-element {
-        width: 994px;
-        height: 470px;
+        width: 968px;
+        height: 446px;
         object-fit: fill;
     }
     .video-play-btn {

@@ -41,7 +41,7 @@ export default {
         cursor: pointer;
     }
     .introduct-box-content {
-        padding: 100px;
+        padding: 50px;
         height: 551px;
         box-sizing: border-box;
         font-size: 16px;
