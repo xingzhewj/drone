@@ -29,7 +29,7 @@ export default {
         moveRightDown(name) {
             this.controlStatus = 'zoom';
             this.$router.push({
-                name: name,
+                name,
                 query: {
                     t: this.timeamp()
                 }

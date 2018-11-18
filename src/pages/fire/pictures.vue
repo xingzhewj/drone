@@ -1,9 +1,9 @@
 <template>
     <IntroductBox class="picture-introduct-box">
-        <div class="light-picture-wrapper">
-            <swiper :options="swiperOption" class="light-picture-swiper">
+        <div class="fire-picture-wrapper">
+            <swiper :options="swiperOption" class="fire-picture-swiper">
                 <swiper-slide v-for="i in pictureCount" :key="i">
-                    <div :class="`light-swiper-item light-swiper-${i}`"></div>
+                    <div :class="`fire-swiper-item fire-swiper-${i}`"></div>
                 </swiper-slide>
                 <div class="swiper-button-prev" slot="button-prev"></div>
                 <div class="swiper-button-next" slot="button-next"></div>
@@ -37,30 +37,30 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.light-picture-wrapper {
+.fire-picture-wrapper {
     margin: 18px auto 0;
     width: 940px;
     height: 470px;
     opacity: .8;
-    .light-picture-swiper {
+    .fire-picture-swiper {
         height: 100%;
     }
-    .light-swiper-item {
+    .fire-swiper-item {
         height: 100%;
         background: no-repeat center;
         background-size: contain;
     }
-    .light-swiper-1 {
-        background-image: url('../../assets/imgs/light/1.jpg')
+    .fire-swiper-1 {
+        background-image: url('../../assets/imgs/fire/1.jpg')
     }
-    .light-swiper-2 {
-        background-image: url('../../assets/imgs/light/2.jpg')
+    .fire-swiper-2 {
+        background-image: url('../../assets/imgs/fire/2.jpg')
     }
-    .light-swiper-3 {
-        background-image: url('../../assets/imgs/light/3.jpg')
+    .fire-swiper-3 {
+        background-image: url('../../assets/imgs/fire/3.jpg')
     }
-    .light-swiper-4 {
-        background-image: url('../../assets/imgs/light/4.jpg')
+    .fire-swiper-4 {
+        background-image: url('../../assets/imgs/fire/4.jpg')
     }
 }
 </style>

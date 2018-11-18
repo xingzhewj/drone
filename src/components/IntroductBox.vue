@@ -4,7 +4,9 @@
             <i class="introduct-close-btn" @click="closeBox"></i>
         </div>
         <div class="introduct-box-content">
-            <slot></slot>
+            <div class="introduct-content-wrapper">
+                <slot></slot>
+            </div>
         </div>
     </div>
 </template>
@@ -39,8 +41,21 @@ export default {
         cursor: pointer;
     }
     .introduct-box-content {
-        margin: 50px 30px 30px 50px;
-        height: 470px;
+        padding: 100px;
+        height: 551px;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #323232;
+        line-height: 20px;
+        font-family: 'Microsoft Yahei';
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .introduct-content-wrapper {
+        height: 100%;
+        overflow: auto;
     }
 }
 </style>

@@ -23,9 +23,9 @@ export default {
         };
     },
     mounted() {
-        this.$router.push({
-            name: 'lightList'
-        });
+        // this.$router.push({
+        //     name: 'lightList'
+        // });
         setTimeout(() => {
             this.isShow = true;
         });
